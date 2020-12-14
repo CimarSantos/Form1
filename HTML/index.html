@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Meu Formulário</legend>
+            <input type="text" name="Nome" placeholder="Qual seu nome?">
+            <input type="email" name="Email" placeholder="Qual seu E-mail?">
+            <div>
+                <select name="lista" id="lista">
+                    <option>Qual sua idade?</option>
+                    <option>Até 20</option>
+                    <option>25+</option>
+                    <option>40+</option>
+                </select>
+            </div>
+
+            <div class="local">
+                <h3>Qual sua cidade?</h3>
+                <div class="radio-input">
+                    <div class="cidades">
+                        <input type="radio" name="cidade"><span>Florianópolis</span>
+                    </div>
+                    <div class="cidades">
+                        <input type="radio" name="cidade"><span>São Paulo</span>
+                    </div>
+                    <div class="cidades">
+                        <input type="radio" name="cidade"><span>Porto Alegre</span>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
