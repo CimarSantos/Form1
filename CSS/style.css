@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form fieldset{
+    padding: 0 40px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+}
+
+form legend{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(130, 130, 130);
+}
+
+form input[type=text], form input[type=email]{
+    display: inline-block;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 90%;
+    padding: 8px 13px;
+}
+
+form input[type=text]:focus, form input[type=email]:focus{
+    background-color: cadetblue;
+    color: black;
+    outline: 0;
+}
+
+form select{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 10px;
+    outline: 0;
+    width:calc(85% + 55px);
+    margin: 30px 0 30px 0;
+    padding: 8px 13px;
+    border-radius: 10px;
+}
+
+form select:focus{
+    background-color: cadetblue;
+    color: black;
+}
+
+.radio-input{
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+}
