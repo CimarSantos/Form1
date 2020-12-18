@@ -4,13 +4,14 @@
 }
 
 html, body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100%;
 }
 
 form{
     width: 96%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 form fieldset{
@@ -21,7 +22,7 @@ form fieldset{
 
 form legend{
     text-align: center;
-    font-size: 17px;
+    font-size: 25px;
     color: rgb(130, 130, 130);
 }
 
@@ -43,7 +44,7 @@ form input[type=text]:focus, form input[type=email]:focus{
 
 form select{
     background-color: black;
-    color: blanchedalmond;
+    color: rgb(110, 110, 110);
     border-radius: 10px;
     outline: 0;
     width:calc(85% + 55px);
@@ -57,6 +58,13 @@ form select:focus{
     color: black;
 }
 
+.escolhas{
+    width: calc(85% + 30px);
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 h3{
     margin-top: 10px;
     text-align: center;
@@ -65,13 +73,41 @@ h3{
 
 .input{
     display: inline-block;
-    margin: 10px 0 0 42%;
+    margin: 10px 0 0 38%;
     text-align: left;
     
 }
 
 .input span {
     margin: 7px;
+    padding: 5px;
     font-size: 16px;
     color: rgb(110, 110, 110);
 }
+
+form input[type=submit]{
+    padding: 10px;
+    margin: 10px 0 10px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    background-color: black;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.mensagem {
+    width: calc(90% + 30px);
+    text-align: center;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+}
+
+.mensagem textarea{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: calc(85% + 30px);
+    padding: 10px;
+    outline: 0;
+    resize: none;
+}
+
