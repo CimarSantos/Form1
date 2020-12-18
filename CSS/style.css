@@ -57,8 +57,21 @@ form select:focus{
     color: black;
 }
 
-.radio-input{
+h3{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+
+.input{
     display: inline-block;
-    margin: 10px;
+    margin: 10px 0 0 42%;
     text-align: left;
+    
+}
+
+.input span {
+    margin: 7px;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
 }
